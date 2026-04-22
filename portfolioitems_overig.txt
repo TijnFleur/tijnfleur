@@ -1,0 +1,180 @@
+# De overige 8 detailpagina's
+
+Kopieer voor elk project onderstaande template en vervang de placeholders.
+Sla elk bestand op in de `portfolio/` map.
+
+---
+
+## Template — kopieer dit voor elk project
+
+```html
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TITEL — Tijn Fleur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500&family=Cormorant+Garamond:ital,wght@1,300&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<nav>
+  <a href="../index.html" class="nav-logo">Tijn Fleur</a>
+  <div class="nav-links">
+    <a href="../index.html#portfolio" class="nav-back">← Terug naar werk</a>
+    <a href="../over.html" class="nav-link">Over</a>
+    <a href="../index.html#contact" class="nav-link">Contact</a>
+  </div>
+</nav>
+
+<div class="project-hero">
+  <img class="hero-thumb" src="../images/thumbs/THUMBNAIL.jpg" alt="TITEL">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <h1>TITEL</h1>
+      <div class="hero-badges">
+        <span class="badge-cat">CATEGORIE</span>
+        <!-- voeg badge-pass toe als passieproject -->
+      </div>
+    </div>
+    <div class="hero-right">
+      <a class="btn-watch" href="VIMEO_OF_YOUTUBE_URL" target="_blank">
+        <svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg>
+        Bekijk film
+      </a>
+      <span class="hero-jaar">JAAR</span>
+    </div>
+  </div>
+</div>
+
+<!-- Info strip, content, stills, next, footer: zelfde als letterbox-enigma.html -->
+</body>
+</html>
+```
+
+---
+
+## Bestandsnamen & volgorde (voor "Volgend project" links)
+
+| # | Bestand | Volgend project |
+|---|---------|-----------------|
+| 1 | `letterbox-enigma.html` | `weg-van-hier.html` |
+| 2 | `weg-van-hier.html` | `balans-de-bijsluiter.html` |
+| 3 | `balans-de-bijsluiter.html` | `kostenpost.html` |
+| 4 | `kostenpost.html` | `lamb-to-the-slaughter.html` |
+| 5 | `lamb-to-the-slaughter.html` | `boon.html` |
+| 6 | `boon.html` | `chrissy-crisis.html` |
+| 7 | `chrissy-crisis.html` | `cowboy-like-me.html` |
+| 8 | `cowboy-like-me.html` | `hourglass.html` |
+| 9 | `hourglass.html` | `greener-grass.html` |
+| 10 | `greener-grass.html` | `letterbox-enigma.html` (terug naar begin) |
+
+---
+
+## Data per project (kopieer in het template)
+
+### balans-de-bijsluiter.html
+- Titel: Balans | De Bijsluiter
+- Jaar: 2026
+- Badges: Documentaire · Interview
+- Passieproject: nee
+- Rol: DOP · Editor
+- Festivals: —
+- Beschrijving: Korte documentaire over het belang van een eigen gezonde leefstijl. Gemaakt in twee weken voor journalistiek platform 'De Bijsluiter' samen met Nils Pit, Sanne Lammerink en Renee Kleijn.
+- Crew: Regie: Nils Pit | Concept: Renee Kleijn, Sanne Lammerink | DOP: Tijn Fleur | Montage: Tijn Fleur, Nils Pit | Colorgrading: Tijn Fleur
+- Cast: Julian de Boer, Danique Hosmar, Tanja (...)
+- Thumbnail: thumb-balans.jpg
+- Stills: balans-still-1/2/3.jpg
+
+### kostenpost.html
+- Titel: KOSTENPOST
+- Jaar: 2026
+- Badges: Fictie
+- Passieproject: ja
+- Rol: Acteur · Editor
+- Beschrijving: Korte film over de huidige omgang met kunst en cultuur in Nederland.
+- Crew: Regie: Lana Beijl | Script: Lana Beijl | DOP: Camiel Kok | Art Direction: Lana Beijl, Lore Coopmans | Montage + Colorgrading: Tijn Fleur
+- Cast: Lore Coopmans, Tijn Fleur, David Hop
+- Thumbnail: thumb-kostenpost.jpg
+- Stills: kostenpost-still-1/2/3.jpg
+
+### lamb-to-the-slaughter.html
+- Titel: Lamb to the Slaughter
+- Jaar: 2024
+- Badges: Fictie · Kortfilm
+- Passieproject: ja
+- Rol: DOP · Editor
+- Festivals: NFFS
+- Beschrijving: Verfilming van de short story van Roald Dahl. Regisseur Lana Beijl schreef het origineel om naar een filmscript — de essentie van het verhaal bleef centraal. Voor het eerst bewust nagedacht over openingsshots en sfeer.
+- Crew: Regie: Lana Beijl | Script: Lana Beijl | DOP: Tijn Fleur | Montage: Tijn Fleur | Geluid: Tijn Fleur | Art Direction: Olivia van der Veer, Lana Beijl
+- Cast: Olivia van der Veer, Eise de Lange, Lana Beijl
+- Thumbnail: thumb-ltts.jpg
+- Stills: ltts-still-1/2/3.jpg
+
+### boon.html
+- Titel: BOON.
+- Jaar: 2025
+- Badges: Fictie · 48 Hour Film Project
+- Passieproject: ja
+- Rol: DOP · Editor
+- Festivals: GIGANT 48HFP Apeldoorn
+- Beschrijving: Nadat een schimmelplaag vrijwel alle gewassen heeft uitgeroeid, draait de mensheid enkel en alleen om bonen. Gemaakt in 48 uur met Ctrl+S Media. Verplichte elementen: personage Quin/Quinty van der Wal, een drinkrietje, en de zin 'Wat kan ik zeggen, ik ben gewoon zo goed.' Genre: Dystopian.
+- Crew: Regie: Lana Beijl | Productieleiding: Ruben Boas Berg | DOP: Tijn Fleur, Hasse Zandsteeg | Montage: Tijn Fleur, Camiel Kok, Hasse Zandsteeg | Colorgrading: Camiel Kok | Geluid: Danio Tolic
+- Cast: Zaria Vekić, Siem Beijl, Hasse Zandsteeg, Ruben Boas Berg
+- Thumbnail: thumb-boon.jpg
+- Stills: boon-still-1/2/3.jpg
+
+### chrissy-crisis.html
+- Titel: Chrissy Crisis
+- Jaar: 2025
+- Badges: Fictie · 48 Hour Film Project
+- Passieproject: ja
+- Rol: DOP · Editor · VFX
+- Festivals: GIGANT 48HFP Apeldoorn
+- Beschrijving: Eerste deelname van filmteam Ctrl+S aan het 48 Hour Film Project. Letterhamsteraar Chrissy van Camphuysen veroorzaakt een nationale crisis — en maakt het bij elke poging alleen maar erger.
+- Crew: Regie: Lana Beijl | 2e Regie: Kaylie Bakker | Script: Lana Beijl, Kaylie Bakker | DOP: Tijn Fleur | Montage + VFX: Tijn Fleur | Colorgrading: Camiel Kok | Compositie: Ruben Boas Berg
+- Cast: Jorn Kneppel, Tijn Fleur, Ruben Boas Berg, Olivia van der Veer, Lana Beijl
+- Thumbnail: thumb-chrissy.jpg
+- Stills: chrissy-still-1/2/3.jpg
+
+### cowboy-like-me.html
+- Titel: Cowboy Like Me
+- Jaar: 2024
+- Badges: Fictie · Kortfilm
+- Passieproject: ja
+- Rol: DOP · Editor
+- Festivals: NFFS · Camera Zizanio Griekenland
+- Beschrijving: Een western als informatica-meesterproef — van script tot cast, alles zelf opgebouwd. David Johnson wordt achtergelaten in het wilde westen en leert van cowboy Buck Dallas hoe hij zichzelf moet redden. 3e prijs NFFS en wildcard voor Camera Zizanio in Pyrgos, Griekenland.
+- Prijzen: 3e prijs Fictie Bovenbouw — NFFS 20e editie | Wildcard + screening — Camera Zizanio, Pyrgos
+- Crew: Regie: Lana Beijl | Script: Lana Beijl | DOP: Tijn Fleur | Montage: Tijn Fleur | Colorgrading + VFX: Kaylie Bakker
+- Cast: David Hop, Stef Asbreuk, Lore Coopmans, Ruben Boas Berg, Daniel den Besten, Eline de Vries, Wessel Zeilstra, Krijn Zijlstra
+- Thumbnail: thumb-cowboy.jpg
+- Stills: cowboy-still-1/2/3.jpg
+
+### hourglass.html
+- Titel: (h)ourglass
+- Jaar: 2024
+- Badges: 1-minute · Solofilm
+- Passieproject: ja
+- Rol: Regie · Editor
+- Festivals: NFFS
+- Beschrijving: Eerste solofilm. Een korte film over een relatie en de emoties die daarbinnen leven, met een zandloper als centraal fysiek object — live op set aanwezig, niet in nabewerking. Opa hielp een op maat gemaakte standaard bouwen.
+- Crew: Film door: Tijn Fleur | Technische support: Ton Fleur
+- Cast: Eise de Lange, Femke Kerstjens
+- Thumbnail: thumb-hourglass.jpg
+- Stills: hourglass-still-1/2/3.jpg
+
+### greener-grass.html
+- Titel: Greener Grass
+- Jaar: 2024
+- Badges: Fictie · Internationaal
+- Passieproject: ja
+- Rol: DOP · Editor
+- Festivals: Camera Zizanio Griekenland
+- Beschrijving: Gemaakt tijdens het Mythos Project op Camera Zizanio in Pyrgos, Griekenland. Een internationaal team van vijf nationaliteiten — Nederland, Turkije, Griekenland en Tsjechië — maakte in vijf dagen een complete kortfilm rond het thema 'A Demand For...'
+- Crew: Regie: Ulaş Çetin Köreken | Script: Mythos Team #5 | DOP: Tijn Fleur | Montage: Tijn Fleur, Ulaş Çetin Köreken | Graphic Design: Zaria Vekić | Supervisor: Jan-Willem Wit
+- Cast: Theodora Karamani, Zaria Vekić, Martha Asmi, Ulaş Çetin Köreken, Victoria Gourgoura, Martina Inostroza, Tijn Fleur
+- Thumbnail: thumb-greener-grass.jpg
+- Stills: greener-still-1/2/3.jpg
